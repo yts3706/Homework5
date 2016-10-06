@@ -1,4 +1,5 @@
 #include "robot_parts.h"
+//random
 
 void Arm::armSet(double new_power)
 {
