@@ -5,5 +5,8 @@ using namespace std;
 
 int main()
 {
-	controller();
+	while (1)
+	{
+		controller();
+	}
 }

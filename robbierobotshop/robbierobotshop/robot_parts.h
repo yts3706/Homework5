@@ -21,7 +21,7 @@ class Locomoter : public Robot
 public:
 	int max_speed;
 	int power_consumed;
-
+	virtual void mysetter(string name, string type, string description, int part_num, double weight, double cost);
 };
 
 class Arm : public Robot
@@ -43,15 +43,14 @@ public:
 class Head : public Robot
 {
 public:
-	//head();
+	//headFunc();
+	virtual void mysetter(string name, string type, string description, int part_num, double weight, double cost);
 };
 class Torso : public Robot
 {
 public:
 	virtual void mysetter(string name, string type, string description, int part_num, double weight, double cost);
 	int batter_comp;
-	vector<Arm> arms;
-	vector<Battery> batteries;
 
 };
 #endif
