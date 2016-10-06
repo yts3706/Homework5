@@ -1,8 +1,9 @@
 #include <iostream>
+#include "controller.h"
 
 using namespace std;
 
-int main() {
-	cout << "Hello Yash";
-	return 0;
+int main()
+{
+	controller();
 }
