@@ -1,16 +1,42 @@
 #include "controller.h"
 #include "robot_parts.h"
-
+#include "robot_models.h"
 using namespace std;
 
+vector<robotModel> modelPart;
 vector<Robot*> store;
+
+void  modelfunc()
+{
+	robotModel models;
+
+	cout << "Enter model name: ";
+	cin >> models.name;
+
+	cout << "Enter model number: ";
+	cin >> models.model_num;
+
+	cout << "Enter Model price: ";
+	cin >> models.price;
+
+	for (int i = 0; i < store.size(); i++)
+	{
+		cout << store[i]->name;
+		cout << store[i]->type;
+
+	}
+}
 
 void create()
 {
-	cout << "\nRobot Parts - 1\nRobot Model - 2\nRobot Order - 3\nReturn to Main Menu\n";
+	cout << "\nRobot Parts - 1\nRobot Model - 2\nRobot Order - 3\nReturn to Main Menu - 4\n";
 	int a;
 
 	cin >> a;
+	if (a == 2)
+	{
+		modelFunc();
+	}
 	if (a == 4)
 	{
 		controller();
