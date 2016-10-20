@@ -51,6 +51,10 @@ class Torso : public Robot
 public:
 	virtual void myset(string name, string type, string description, int part_num, double weight, double cost);
 	int battery_comp;
+	Head Head1;
+	Locomoter myLoco;
+	vector<Arm> myArm; 
+	vector<Battery> myBattery;
 
 };
 #endif

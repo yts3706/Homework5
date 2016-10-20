@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="robotModel" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABQAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>robot_models.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robot" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAgAAAAAAAVAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>robot_parts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Locomoter">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>robot_parts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arm" Collapsed="true">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>robot_parts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Battery" Collapsed="true">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAgEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>robot_parts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Head" Collapsed="true">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>robot_parts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Torso" Collapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAgQBAAAAAAAAAAAAAEAAAAAEA=</HashCode>
+      <FileName>robot_parts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
